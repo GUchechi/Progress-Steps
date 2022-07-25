@@ -1,5 +1,5 @@
-const progress = document.getElementById('progress');
-const prev = document.getElementById('prev');
+const progress = document.getElementById('progress')
+const prev = document.getElementById('prev')
 const next = document.getElementById('next');
 const circles = document.querySelectorAll('.circle');
 
@@ -15,10 +15,10 @@ next.addEventListener('click', () => {
 })
 
 
-prev.addEventListener('click', () => {
+prev.addEventListener('click',  () => {
     currentActive--;
     if(currentActive < 1) {
-        currentActive = 1;
+        currentActive = 1
     }
     
     update()
